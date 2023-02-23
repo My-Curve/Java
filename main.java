@@ -18,5 +18,23 @@ public class main {
         System.out.println(3);
         System.out.println(4);
         System.out.println(5);
+
+        //create a variable named kiash and print saying kiash loves doing hard task    
+        String kiash = "kiash loves doing hard task";
+        System.out.println(kiash);
+
+        String Fname="Samuel";
+        String Sname="Kaindo";
+        String ThirdName="Wainaina";
+        String FullName=Fname+" "+Sname+" "+ThirdName;
+        System.out.println(FullName);
+
+
+        //create now calculatiion
+        int num1=10;
+        int num2=20;
+        int num3=30;
+        int add=num1+num2+num3;
+        System.out.println(add);
     }
 }
