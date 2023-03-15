@@ -36,5 +36,15 @@ public class main {
         int num3=30;
         int add=num1+num2+num3;
         System.out.println(add);
+
+
+        //create a program that asks the user for the inputs and display them
+        Scanner input=new Scanner(System.in);
+        System.out.println("Enter your name");
+        String name=input.nextLine();
+        System.out.println("Enter your age");
+        int age=input.nextInt();
+            
+
     }
 }
